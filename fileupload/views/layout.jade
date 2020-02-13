@@ -1,0 +1,36 @@
+doctype 5
+html
+  head(lang="ja")
+    meta(charset='utf-8')
+    title= title
+    script(src='/javascripts/jquery-1.8.3.min.js')
+    script(src='/javascripts/jquery.textarearesizer.js')
+    script(src='/javascripts/jquery.splitter-0.6.js')
+    script(src='/javascripts/jquery-ui-1.9.2.custom.min.js')
+    script(src='/javascripts/jquery.iframe-auto-height.plugin.1.6.0-modify.js')
+    script(src='/javascripts/jquery.cookie.js')
+    script(src='/javascripts/bootstrap.js')
+    script(src='/javascripts/list.min.js')
+    script(src='/javascripts/app.js')
+
+    link(rel='stylesheet', href='/stylesheets/style-button.css')
+    link(rel='stylesheet', href='/stylesheets/jquery.splitter.css')
+    link(rel='stylesheet', href='/stylesheets/trontastic/jquery-ui-1.9.2.custom.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/style2.css')
+
+  body
+
+    block content
+
+    span#tool-bar(style="position:fixed; left:4px; bottom:4px; ")
+      .btn.btn-info.show-index(rel="tooltip", title="目次を表示する", style="display:none;") #{"show index"}
+      .btn.btn-info.hide-index(rel="tooltip", title="目次を隠す", style="display:none;") #{"hide index"}
+      .btn.btn-info.chap-prev(rel="tooltip", title="前の章へ", style="display:none;") #{"◁"}
+      .btn.btn-info.chap-next(rel="tooltip", title="次の章へ", style="display:none;") #{"▷"}
+
+    footer
+      Copyright &copy; 2011 - 2013 &nbsp;
+      a(href="https://github.com/katoy") katoy

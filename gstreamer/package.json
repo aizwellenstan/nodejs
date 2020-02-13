@@ -1,0 +1,27 @@
+{
+  "name": "gstreamer",
+  "version": "1.0.0",
+  "description": "GStreamer RTSP to WebBrowser for Accuware Dragonfly Demonstrator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accuware/gstreamer.git"
+  },
+  "keywords": [
+    "gstreamer",
+    "rtsp",
+    "websocket"
+  ],
+  "author": "accuware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/accuware/gstreamer/issues"
+  },
+  "homepage": "https://github.com/accuware/gstreamer#readme",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
+}

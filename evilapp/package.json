@@ -1,0 +1,17 @@
+{
+  "name": "evilapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "evilapp.js",
+  "scripts": {
+    "start": "node evilapp",
+    "dev": "nodemon evilapp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "nodemon": "1.19.1"
+  }
+}
